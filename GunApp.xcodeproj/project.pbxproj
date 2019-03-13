@@ -12,6 +12,9 @@
 		5E4A541222375F7300160A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A541022375F7300160A52 /* Main.storyboard */; };
 		5E4A541422375F7600160A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A541322375F7600160A52 /* Assets.xcassets */; };
 		5E4A541722375F7600160A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A541522375F7600160A52 /* LaunchScreen.storyboard */; };
+		5E4A542022375FCF00160A52 /* Gun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A541F22375FCF00160A52 /* Gun.swift */; };
+		5E4A5424223771EA00160A52 /* GunCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A5422223771EA00160A52 /* GunCollectionViewCell.swift */; };
+		5E4A5425223771EA00160A52 /* GunCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A5423223771EA00160A52 /* GunCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5E4A541322375F7600160A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E4A541622375F7600160A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4A541822375F7600160A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4A541F22375FCF00160A52 /* Gun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gun.swift; sourceTree = "<group>"; };
+		5E4A5422223771EA00160A52 /* GunCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E4A5423223771EA00160A52 /* GunCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GunCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		5E4A540B22375F7300160A52 /* GunApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E4A5421223771CA00160A52 /* Views */,
+				5E4A541E22375F9100160A52 /* Models */,
 				5E4A540C22375F7300160A52 /* AppDelegate.swift */,
 				5E4A540E22375F7300160A52 /* ViewController.swift */,
 				5E4A541022375F7300160A52 /* Main.storyboard */,
@@ -62,6 +70,23 @@
 				5E4A541822375F7600160A52 /* Info.plist */,
 			);
 			path = GunApp;
+			sourceTree = "<group>";
+		};
+		5E4A541E22375F9100160A52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A541F22375FCF00160A52 /* Gun.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E4A5421223771CA00160A52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A5422223771EA00160A52 /* GunCollectionViewCell.swift */,
+				5E4A5423223771EA00160A52 /* GunCollectionViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +150,7 @@
 				5E4A541722375F7600160A52 /* LaunchScreen.storyboard in Resources */,
 				5E4A541422375F7600160A52 /* Assets.xcassets in Resources */,
 				5E4A541222375F7300160A52 /* Main.storyboard in Resources */,
+				5E4A5425223771EA00160A52 /* GunCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E4A540F22375F7300160A52 /* ViewController.swift in Sources */,
+				5E4A542022375FCF00160A52 /* Gun.swift in Sources */,
 				5E4A540D22375F7300160A52 /* AppDelegate.swift in Sources */,
+				5E4A5424223771EA00160A52 /* GunCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
